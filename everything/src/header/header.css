@@ -1,0 +1,13 @@
+.products:hover .products2{
+    display: flex;
+    transition-duration: 5s;
+  }
+  
+  nav ul{
+    position:relative
+  }
+  .products2{
+    left: 0;
+    margin-top: 8px;
+    padding-top: 5px;
+  }

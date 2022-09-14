@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #e5ecef;
+}
+
+/* Container for flexboxes */
+.row {
+  width: 80%;
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  margin: auto;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  @media screen and (max-width: 1212px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+// .column {
+//   display: flex;
+// flex-direction: column;
+
+//   width: 100%;
+//   padding: 20px 16px;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   cursor: pointer;
+//   transition: 0.2s;
+//   &:hover {
+//     transform: scale(1.02);
+//   }
+//   img {
+//     width: 100px;
+//     padding: 10px;
+//     border-radius: 8px;
+//     text-decoration: none;
+//   }
+//   .title {
+//     margin-top: 16px;
+//     font-size: 14px;
+//     &:link{
+//       text-decoration: none;
+//     }
+//     text-decoration: none;
+//   }
+//   .subtitle {
+//     margin-top: 16px;
+//     font-size: 13px;
+//     color: #83838e;
+//     text-decoration: none;
+//   }
+//   .card-button {
+//     align-content: flex-end;
+//     display: flex;
+//      align-items: center;
+//     justify-content: space-between;
+//     width: 100%;
+//     margin-top: 4px;
+//     padding: 10px;
+//     .message{
+//       height: 40px;
+//       background-color: #f0f0f0;
+//     }
+//   }
+
+// }
+
+.column {
+  text-decoration: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 260px;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.02);
+  }
+  img {
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .title {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .subtitle {
+    text-decoration: none;
+    color: #83838e;
+    font-size: 13px;
+    margin-top: 14px;
+    line-height: 1.6em;
+  }
+  .card-button {
+    text-decoration: none;
+    align-items: flex-end; 
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    width: 100%;
+    
+    .apply {
+      color: #fff;
+      background-color: #0162ff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 6px 8px;
+      border-radius: 4px;
+    }
+    .message {
+      color: #fff;
+      background-color: #83838e;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 6px 8px;
+      border-radius: 4px;
+    }
+  }
+}

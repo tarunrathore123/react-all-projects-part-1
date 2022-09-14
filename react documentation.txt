@@ -1,0 +1,81 @@
+
+
+npm install --save node-sass react-router-dom redux redux-logger react-redux firebase reselect
+
+
+npx create-react-app app_name
+npm start
+$ npm install node-sass --save
+
+npm install --save font-awesome
+npm i styled-components
+npm i react-icons
+npm install -S react-router-dom
+npm install --save redux redux-logger react-redux
+
+npm init
+npm install --save firebase
+
+npm install --save reselect
+
+npm install --save gatsby-cli
+npm i -g gatsby-cli
+
+Netlify, contentful, snipcart
+
+extensions for tailwind - 
+headwind, live server, tailwind, alpine js
+
+npm install tailwindcss postcss postcss-cli autoprefixer
+npx tailwindcss init -p
+
+
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm install @craco/craco
+dono sath me install kre
+package.json me add thi yeh in script array craco k place pr
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+
+
+
+git remote add origin git@github.com:tarunrathore123/crwn_clothing
+git status
+git add -A
+git commit -m "created project with create react app and added files for homepage"
+git push origin master
+
+
+
+git clone https://sourcecode.jnj.com/scm/asx-nbfj/react-training.git
+cd react-training
+git checkout -b tarun
+git status
+git add . or git add games-list/
+git commit -m "demo.html pushed"
+git push origin tarun
+git config --global user.name "tRathor1"
+git config --global user.email trathor1@its.jnj.com
+
+
+
+
+npm i http-proxy-middleware
+
+How to solve CORS Error 
+Install http-proxy-middleware ( npm i http-proxy-middleware/ yarn add http-proxy-middleware) 
+create file src/proxySetup.js and copy the below content 
+const {createProxyMiddleware} =require('http-proxy-middleware'); 
+module.exports = function(app) { 
+app.use( 
+'/api/**', 
+createProxyMiddleware({ 
+target: "https://www.freetogame.com/", 
+changeOrigin: true 
+}) 
+) 
+} 
+Change the api url from https://www.freetogame.com/api/** to /api/**  
+https://www.freetogame.com/api/games ---> /api/games 
+and https://www.freetogame.com/api/game?id=23 ---> /api/game?id=23 

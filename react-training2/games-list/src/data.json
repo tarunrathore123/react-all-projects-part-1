@@ -1,0 +1,42 @@
+[{
+    "@id":"5ff9ccd16793c180ca4cedaf",
+    "@category":"IT",
+    "id":"5ff9ccd16793c180ca4cedaf",
+    "ispromoted":"false",
+    "cpc":"0",
+    "title":"SwissDevJobs.ch is now moving to the UK 🔥",
+    "country":"United Kingdom",
+    "region":"London",
+    "location":"London, London",
+    "city":"London",
+    "postcode":"11111",
+    "logo":"https://static.devitjobs.uk/logo-images/devit-logo-square.png",
+    "salary":"100,000 - 200,000 GBP per year",
+    "company":"DevITjobs",
+    "jobtype":"Full-Time",
+    "job-status":"Full-Time",
+    "pubdate":"08.06.2020"
+},
+
+    {
+        "@id":"5ff9ccd16793c180ca4cedaf",
+        "@category":"IT",
+        "id":"5ff9ccd16793c180ca4cedaf",
+        "ispromoted":"false",
+        "cpc":"0",
+        "title":"SwissDevJobs.ch is now moving to the UK 🔥",
+        "url":"https://devitjobs.uk/jobs/DevITjobs-SwissDevJobsch-is-now-moving-to-the-UK",
+        "country":"United Kingdom",
+        "region":"London",
+        "location":"London, London",
+        "city":"London",
+        "postcode":"11111",
+        "logo":"https://static.devitjobs.uk/logo-images/devit-logo-square.png",
+        "salary":"100,000 - 200,000 GBP per year",
+        "company":"DevITjobs",
+        "jobtype":"Full-Time",
+        "job-status":"Full-Time",
+        "pubdate":"08.06.2020",
+        "desc":"<p><strong>Salary 100,000 - 200,000 GBP per year </strong></p><br><br><p><strong>Requirements:</strong></p><p>- We started in Switzerland as SwissDevJobs.ch with the goal to bring more transparency, openness and diversity to the Swiss IT market.<br><br>After achieving this goal, we now strive to do the same on the UK IT market. <br><br>We want to make the job search process for Software Engineers more enjoyable by gathering all job postings in Germany and presenting them in an informative way.<br><br>Our portal is not only for Developers but for everyone working in the IT industry: Engineers, SAP and System Admins, Product Managers, QAs and UX/UI Designers!</p><br><br><br><p><strong>Responsibilities:</strong></p><p>- You can add your tech jobs free of charge!<br></p><br><br><br><p><strong>Technologies:</strong></p><p>- .NET MVC<br>- Abacus<br>- Active Directory<br>- Airflow<br>- Zeplin</p><br><br><p>More: </p>Still not convinced? Check SwissDevJobs.ch<br>"
+    }
+    ]
